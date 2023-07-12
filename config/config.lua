@@ -16,11 +16,6 @@ Config.GymStrength = 0.1
 Config.GymStamina = 0.2
 Config.GymWait = 10000 -- Relax you cunt
 
-Config.Framework = {
-    Name = 'QBCore',
-    Trigger = 'QBCore:GetObject'
-}
-
 -- Skill List with native names
 
 Config.Skills = {
