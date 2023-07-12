@@ -176,7 +176,7 @@ end
 
 Citizen.CreateThread(function()
     while QBCore == nil do
-        TriggerEvent(Config.Framework.Trigger, function(gym)
+        TriggerEvent("QBCore:GetObject", function(gym)
             QBCore = gym
         end)
         Citizen.Wait(0)
