@@ -24,6 +24,12 @@ Config.Framework = {
 -- Skill List with native names
 
 Config.Skills = {
+    ["Stamina"] = {
+        ['current'] = 10,
+        ['label'] = 'Stamina',
+        ['removeSec'] = -0.3,
+        ['stat'] = 'MP0_STAMINA'
+    },
     ['Strength'] = {
         ['current'] = 10,
         ['label'] = 'Strength',
@@ -36,6 +42,24 @@ Config.Skills = {
         ['removeSec'] = -0.1,
         ['stat'] = "MP0_LUNG_CAPACITY"
     },
+    ["Shooting"] = {
+        ['current'] = 10,
+        ['label'] = 'Shooting',
+        ['removeSec'] = -0.4,
+        ['stat'] = 'MP0_SHOOTING_ABILITY'
+    },
+    ["Driving"] = {
+        ['current'] = 10,
+        ['label'] = 'Driving',
+        ['removeSec'] = -0.3,
+        ['stat'] = 'MP0_DRIVING_ABILITY'
+    },
+    ["Wheelie"] = {
+        ['current'] = 10,
+        ['label'] = 'Wheelie',
+        ['removeSec'] = -0.2,
+        ['stat'] = 'MP0_WHEELIE_ABILITY'
+    }
 }
 
 -- Lazy locale system
@@ -45,6 +69,5 @@ Config.Lang = {
     ["skilldown"] = " Skill Removed",
     ["resting"] = "You must rest before another workout",
     ["workoutlabel"] = "~g~E~w~ - Start Working Out",
-    ["nomembership"] = "You don\'t have a membership to workout here",
     ["workoutlabel"] = "~g~E~w~ - To Do" 
 }
